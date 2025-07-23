@@ -192,4 +192,19 @@ span{
 .service{
     display: flex;
     justify-content: space-between;
+    padding: 40px 120px;
+    margin: 40px 40px;
+}
+.h2-1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.badge{
+    margin-left: 400px;
+    margin-bottom: 40px;
+   
+
+}
+.service1 img{
+    margin-bottom: 20px;
 }
