@@ -15,7 +15,8 @@
 .navbar{
     display: flex;
     justify-content: space-between;
-    margin: 20px 80px;
+    margin: 20px;
+    padding: 20px 60px;
 }
 .nav ul{
     display: flex;
@@ -35,4 +36,13 @@ ul li a{
 #li2{
     color: #252432;
     font-weight: 600;
+}
+.banner1{
+    display: flex;
+    justify-content: center;
+  
+}
+.h1-1{
+    font-size: 65px;
+    font-weight: bold;
 }
