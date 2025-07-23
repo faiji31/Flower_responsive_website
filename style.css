@@ -15,9 +15,24 @@
 .navbar{
     display: flex;
     justify-content: space-between;
+    margin: 20px 80px;
 }
 .nav ul{
     display: flex;
     list-style: none;
-    gap:12px;
+    gap:15px;
+}
+ul li a{
+    text-decoration: none;
+}
+#li1{
+    color: #8987A1;
+}
+#i{
+    margin-top: 3px;
+    padding-left:15px ;
+}
+#li2{
+    color: #252432;
+    font-weight: 600;
 }
