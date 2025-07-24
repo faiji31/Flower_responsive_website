@@ -199,12 +199,22 @@ span{
     font-size: 50px;
     font-weight: bold;
 }
-.badge{
-    margin-left: 400px;
-    margin-bottom: 40px;
-   
-
+.image-box{
+    position: relative;
+    width: 100%;
 }
-.service1 img{
-    margin-bottom: 20px;
+.flower_image{
+    width: 100%;
+    display: block;
+    border-radius: 8px;
+}
+.badge{
+    position: absolute;
+    top: -100px;
+    right: -100px;
+    
+    width: 300px;
+    height: auto;
+    z-index: 2;
+   
 }
