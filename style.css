@@ -427,3 +427,75 @@ span{
 .subscribe-form button:hover {
   background-color: #c4410c;
 }
+@media screen and (max-width:576px) {
+    .subscribe-form {
+    flex-direction: column;
+  }
+.subscribe-form input, .subscribe-form button {
+    width: 100%;
+    border-radius: 5px;
+  }
+  .subscribe-form button {
+    margin-top: 10px;
+  }
+    
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+}
+.footer-left h3 {
+  margin-top: 10px;
+  font-size: 24px;
+  color: #333;
+}
+.footer-left p {
+  font-size: 14px;
+  color: #777;
+}
+.footer-logo {
+  width: 80px;
+  height: auto;
+}
+.footer-columns {
+  display: flex;
+  justify-content: center;
+  gap: 60px; /* space between the two columns */
+  padding: 20px;
+  text-align: left;
+}
+
+.footer-center ul,
+.footer-center1 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-center li,
+.footer-center1 li {
+  margin-bottom: 10px;
+}
+
+.footer-center a,
+.footer-center1 a {
+  text-decoration: none;
+  color: #444;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.footer-center a:hover,
+.footer-center1 a:hover {
+  color: #E95A08;
+}
+
+.footer-right a img {
+  width: 30px;
+  margin-left: 10px;
+  transition: transform 0.3s;
+}
